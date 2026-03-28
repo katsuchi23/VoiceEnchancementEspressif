@@ -1,0 +1,20 @@
+numpy>=1.26,<3.0
+scipy>=1.11
+soundfile>=0.12
+librosa>=0.10
+pandas>=2.0
+tqdm>=4.66
+matplotlib>=3.8
+pyyaml>=6.0
+requests>=2.31
+remotezip>=0.12
+einops>=0.7
+
+# Training and export
+# PyTorch is installed separately in scripts/setup_env.sh using the CPU wheel index.
+onnx>=1.16
+onnxruntime>=1.17
+
+# Speech quality metrics
+pesq>=0.0.4
+pystoi>=0.4.1

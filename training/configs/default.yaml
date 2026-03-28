@@ -1,0 +1,22 @@
+experiment:
+  name: debug_nsnet2
+  output_dir: experiments/checkpoints
+
+data:
+  train_manifest: data/processed/debug/manifest.csv
+  sample_rate: 16000
+  n_fft: 512
+  hop_length: 128
+  win_length: 512
+
+model:
+  family: nsnet2_like
+  input_representation: stft_magnitude
+  prediction_target: spectral_mask
+
+training:
+  batch_size: 8
+  num_epochs: 5
+  learning_rate: 0.001
+  loss: mse
+  seed: 42

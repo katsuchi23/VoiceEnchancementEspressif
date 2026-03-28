@@ -1,0 +1,5 @@
+-r base.txt
+pytest>=8.0
+ruff>=0.5
+ipykernel>=6.29
+jupyter>=1.0

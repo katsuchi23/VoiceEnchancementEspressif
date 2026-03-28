@@ -1,0 +1,22 @@
+{
+  "model": "nsnet2",
+  "model_path": "/home/rey/espressif_project/models/baseline/nsnet2/nsnet2-20ms-baseline.onnx",
+  "model_file_size_mb": 10.254157066345215,
+  "sample_wav": "/home/rey/espressif_project/data/samples/dns_preview/noisy/01.wav",
+  "sample_rate": 16000,
+  "runs": 5,
+  "warmup": 1,
+  "backend": "onnx",
+  "device": "cpu",
+  "parameter_count": 2687563,
+  "parameter_bytes": 10750260,
+  "onnx_node_count": 32,
+  "audio_duration_sec": 41.121375,
+  "avg_latency_ms": 174.90092819971323,
+  "total_processing_ms": 874.5046409985662,
+  "total_processing_sec": 0.8745046409985662,
+  "min_latency_ms": 170.46736900010728,
+  "max_latency_ms": 185.84406699847023,
+  "real_time_factor": 0.004253285017821345,
+  "x_realtime": 235.1123886149132
+}

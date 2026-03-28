@@ -1,0 +1,4 @@
+[submodule "submodules/DNS-Challenge"]
+	path = submodules/DNS-Challenge
+	url = https://github.com/microsoft/DNS-Challenge.git
+	ignore = dirty

@@ -1,0 +1,19 @@
+{
+  "model": "gtcrn",
+  "model_path": "/home/rey/espressif_project/models/baseline/gtcrn/checkpoints/model_trained_on_dns3.tar",
+  "model_file_size_mb": 0.5529584884643555,
+  "sample_wav": "/home/rey/espressif_project/data/samples/dns_preview/noisy/01.wav",
+  "sample_rate": 16000,
+  "runs": 3,
+  "warmup": 1,
+  "backend": "pytorch",
+  "device": "cuda",
+  "parameter_count": 48245,
+  "parameter_bytes": 192980,
+  "audio_duration_sec": 41.121375,
+  "avg_latency_ms": 13.086712999211159,
+  "min_latency_ms": 12.660905998927774,
+  "max_latency_ms": 13.302034998559975,
+  "real_time_factor": 0.0003182459973483659,
+  "x_realtime": 3142.2233377073917
+}

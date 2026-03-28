@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.ipynb_checkpoints/
+
+# Data and artifacts
+/data/
+
+/experiments/checkpoints/
+/experiments/logs/
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Model exports
+*.onnx
+*.espdl
+*.info
